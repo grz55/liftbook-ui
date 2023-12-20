@@ -1,0 +1,23 @@
+<section class="center">
+    <h2>Add Exercise</h2>
+
+    <form [formGroup]="exerciseForm" (ngSubmit)="addExercise()">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" formControlName="name">
+        </div>
+    
+        <div>
+          <label for="pictureUrl">Picture URL:</label>
+          <input type="text" id="pictureUrl" formControlName="pictureUrl">
+        </div>
+    
+        <div>
+          <label for="description">Description:</label>
+          <textarea id="description" formControlName="description"></textarea>
+        </div>
+    
+        <button type="submit" [disabled]="exerciseForm.invalid">Add</button>
+    </form>
+
+</section>
