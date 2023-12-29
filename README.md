@@ -1,27 +1,47 @@
-# LiftbookUi
+# LiftBook UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+LiftBook workout social platform frontend
 
-## Development server
+- [Owners](#owners)
+- [Technology stack](#technology-stack)
+- [Runs on port](#runs-on-port)
+- [Repositories](#repositories)
+- [Commit prefixes](#commit-prefixes)
+- [Useful commands](#useful-commands)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Owners
 
-## Code scaffolding
+- @grz55
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technology stack
 
-## Build
+- Angular CLI 17.0.6
+- Node.js 18.18.2
+- Typescript 5.2.2
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Runs on port
 
-## Running unit tests
+4200
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Repositories
 
-## Running end-to-end tests
+Backend: https://github.com/grz55/liftbook-api
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Commit prefixes
 
-## Further help
+-   feat(task_no): The new feature you're adding to a particular application
+-   fix(task_no): A bug fix
+-   style(task_no): Feature and updates related to styling
+-   refactor(task_no): Refactoring a specific section of the codebase
+-   test(task_no): Everything related to testing
+-   docs(task_no): Everything related to documentation
+-   chore(task_no): Regular code maintenance. [ You can also use emojis to represent commit types]
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Useful commands
+
+- `ng serve` - run dev server at `http://localhost:4200/`
+- `ng generate component component-name` - generate a new component or others `ng generate directive|pipe|service|class|guard|interface|enum|module`
+- `ng build` - build the project. Build artifacts in the `dist/` directory.
+- `ng test` - execute the unit tests via Karma.
+- `ng e2e` - execute the end-to-end tests via a platform of your choice.
+- `ng help` - Angular CLI help
