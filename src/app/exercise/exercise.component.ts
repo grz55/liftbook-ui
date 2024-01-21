@@ -29,7 +29,7 @@ export class ExerciseComponent implements OnInit{
 
   addExercise() {
     const formValue = this.exerciseForm.value;
-    this.http.post('http://localhost:8080/exercises', formValue)
+    this.http.post('https://liftbook-api.onrender.com/exercises', formValue)
       .subscribe(
         (response) => {
           console.log('Exercise added successfully:', response);
